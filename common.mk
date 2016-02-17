@@ -331,6 +331,9 @@ PRODUCT_PACKAGES += \
     android.hardware.power@1.0-service \
     power.msm8998
 
+# Powerhint
+PRODUCT_COPY_FILES += $(LOCAL_PATH)/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
+
 # QMI
 PRODUCT_PACKAGES += \
     libjson
