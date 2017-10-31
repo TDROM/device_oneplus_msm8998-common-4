@@ -268,6 +268,18 @@ on boot
     chown system system /sys/module/fpc1020_tee/parameters/ignor_home_for_ESD
     chmod 660 /sys/module/fpc1020_tee/parameters/ignor_home_for_ESD
 
+# Slider
+    chown system system /proc/s1302/key_rep
+    chown system system /proc/s1302/virtual_key
+    chown system system /proc/tri-state-key/keyCode_top
+    chown system system /proc/tri-state-key/keyCode_middle
+    chown system system /proc/tri-state-key/keyCode_bottom
+    chmod 660 /proc/s1302/key_rep
+    chmod 660 /proc/s1302/virtual_key
+    chmod 660 /proc/tri-state-key/keyCode_top
+    chmod 660 /proc/tri-state-key/keyCode_middle
+    chmod 660 /proc/tri-state-key/keyCode_bottom
+
 #ifdef VENDOR_EDIT
     # camera. enable mobicat
     setprop persist.camera.mobicat 2
