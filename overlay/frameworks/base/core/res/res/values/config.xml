@@ -447,4 +447,8 @@
 
     <!-- True if camera app should be pinned via Pinner Service -->
     <bool name="config_pinnerCameraApp">true</bool>
+
+    <!-- Enable night mode -->
+    <bool name="config_setColorTransformAccelerated">true</bool>
+
 </resources>
