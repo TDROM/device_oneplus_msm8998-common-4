@@ -331,6 +331,10 @@ PRODUCT_PACKAGES += \
 # Powerhint
 PRODUCT_COPY_FILES += $(LOCAL_PATH)/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
 
+# Low power Whitelist
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/qti_whitelist.xml:system/etc/sysconfigs/qti_whitelist.xml
+
 # QMI
 PRODUCT_PACKAGES += \
     libjson
