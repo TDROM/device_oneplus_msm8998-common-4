@@ -422,6 +422,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service \
     com.android.future.usb.accessory
+	
+# Vendor
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.vendor.patch.level=OxygenOS_5.1.0
 
 # Vibrator
 PRODUCT_PACKAGES += \
