@@ -489,4 +489,7 @@
     <!-- Flag specifying whether or not IMS will use the ImsResolver dynamically -->
     <bool name="config_dynamic_bind_ims">true</bool>
 
+    <!-- Button brightness -->
+    <bool name="config_button_brightness_support">true</bool>
+
 </resources>
